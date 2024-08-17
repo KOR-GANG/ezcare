@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+
+.navbar {
+	display: flex !important;
+	align-items: center !important;
+	background-color: #fff !important;
+	padding: 10px 20px !important;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+	justify-content: space-between !important;
+}
+
+
+.navbar-logo {
+	height: 42px !important;
+}
+
+.navbar-left, .navbar-right {
+	display: flex !important;
+	align-items: center !important;
+}
+
+.navbar-right {
+	font-size: 16px !important;
+	margin-right: 0 30px !important;
+}
+
+.navbar-center {
+	flex-grow: 1 !important;
+	display: flex !important;
+	justify-content: center !important;
+	margin-right: 220px !important;
+}
+
+.navbar a {
+	margin: 0 20px !important;
+	text-decoration: none !important;
+	color: #2c3e4c !important;
+	font-weight: bold !important;
+	font-size: 18px !important;
+}
+
+.navbar input {
+	padding: 5px 10px !important;
+	border: 3px solid #2c3e4c !important;
+	border-radius: 0px !important;
+	margin: 0 10px !important;
+	color: #2c3e4c !important;
+	width: 250px !important;
+}
+
+.navbar .search-icon {
+	height: 20px !important;
+	width: 20px !important;
+	margin: 6px 0 0 -40px !important;
+}
+
+.navbar .session-timer {
+	font-weight: bold !important;
+	color: #d9534f !important;
+	margin-right: 20px !important;
+}
+
+.navbar .logout, .navbar .emergency {
+	cursor: pointer !important;
+}
+
+.login-name {
+	text-decoration: underline !important;
+	cursor: pointer !important;
+}
+
+.login-name2 {
+	margin: 0 25px 0px 5px !important;
+}
+
+.logout {
+	margin-right: 35px !important;
+}
+
+.emergency-icon {
+	width: 24px !important;
+	height: 24px !important;
+	cursor: pointer !important;
+}
